@@ -1,0 +1,9 @@
+/Android_studio/*.iml
+/Android_studio/.gradle
+/Android_studio/local.properties
+/Android_studio/.idea/workspace.xml
+/Android_studio/.idea/libraries
+/Android_studio/.DS_Store
+/Android_studio/build
+/Android_studio/captures
+/Android_studio/.externalNativeBuild
