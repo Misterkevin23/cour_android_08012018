@@ -1,0 +1,19 @@
+IL existe different etat permetant de definir les different actions d'une view d'une application(cf Cycle de vie d'une activité) 
+	onResume()->affiche le template
+
+la declaration des valeur se fais dans le les fichier xml des dossier value. Le type est  déclaré au niveaux des chevrons.
+
+-layout_width et layout_height sont des paramettre obligatoire lors de la declaration d'un element: 
+			->wrap_content s'adapte a l'ecran
+			->match_parent prend la taille de l'ecran
+			->dp peut etre utilisé mais pas recommandé ( ->equivalent a rem en CSS)
+		-> on peut utilisé layout_weight pour donnée un poids a l'élement. On met le layout_width de 0dp
+
+- LinearLayout sont des contenaire. est l'equivalent d'un div avec un style display:innline block .
+
+-hint correspond a un placeholder
+
+- pour declaré un id on met un "@+id/" lorsque que l'on nomme une nouveele id. La convention veut que l'on nomme le id en commençant le nom de l'element et un nom aléatoire
+
+-findViewById equivalant a get element by Id 
+
