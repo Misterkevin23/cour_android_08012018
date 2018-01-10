@@ -1,8 +1,13 @@
-IL existe different etat permetant de definir les different actions d'une view d'une application(cf Cycle de vie d'une activité) 
+//*************************************Gestion d'une view**************************************//
+Il existe different etat permetant de definir les different actions d'une view d'une application(cf Cycle de vie d'une activité) 
 	onResume()->affiche le template
+
+
 
 la declaration des valeur se fais dans le les fichier xml des dossier value. Le type est  déclaré au niveaux des chevrons.
 
+//********************************************equivalant HTML**********************************************//
+-Ce fichier se trouve dans :res->Dossier layout->activity_main
 -layout_width et layout_height sont des paramettre obligatoire lors de la declaration d'un element: 
 			->wrap_content s'adapte a l'ecran
 			->match_parent prend la taille de l'ecran
@@ -17,3 +22,13 @@ la declaration des valeur se fais dans le les fichier xml des dossier value. Le 
 
 -findViewById equivalant a get element by Id 
 
+-les donnée d'un input se trouve dans un object editable de la class getText(). Il faut donc faire appelle a la methode toString pour faire apparaitre la valeur
+
+//*******************Créee un menu**********************************************//
+-click droit sur res -> new -> android directory -> selectionner menu
+	->click droit sur menu -> new menu ressource files
+
+//*********************Crée une nouveel activité (Page)**************************//
+dans le dossier mère click droit -> new -> activity -> Empty activity
+
+	
