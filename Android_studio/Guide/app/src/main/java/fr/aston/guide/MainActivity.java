@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
                 //TODO : lancement de HomeActivity
                 Intent myIntent = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(myIntent);
+                //on quitte l'activité apres le passage dans l'activité
+                finish();
             }
         }, 2000);
     }

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Guide</string>
     <string name="name_title">Hôtel &amp; Restaurant</string>
+    <string name="home_green_button"><b>hotel resto</b>\nRetrouvez les meilleurs hôtels et restaurants</string>
+    <string name="home_blue_button">RESERVER\nUN RESTAURANT</string>
+    <string name="home_red_button">RESERVER\nUN HOTEL</string>
 
 </resources>

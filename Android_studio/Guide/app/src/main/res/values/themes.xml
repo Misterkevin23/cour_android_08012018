@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- Permet d'anuler les textes en maguscule automatique-->
+        <item name="android:textAllCaps">false</item>
     </style>
 
     <style name="SplashTheme" parent="AppTheme">
