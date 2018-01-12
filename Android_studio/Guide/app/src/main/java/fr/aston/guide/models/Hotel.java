@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Created by kevin on 11/01/2018.
  */
 
-public class Restaurant implements Serializable {
+public class Hotel implements Serializable {
     private String name;
     private String category;
     private String email;
@@ -14,7 +14,7 @@ public class Restaurant implements Serializable {
     private String url;
     private String image;
 
-    public Restaurant(String name, String category, String email, String phone, String url, String image) {
+    public Hotel(String name, String category, String email, String phone, String url, String image) {
         this.setName(name);
         this.setCategory(category);
         this.setEmail(email);

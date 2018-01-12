@@ -11,17 +11,18 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import fr.aston.guide.models.Hotel;
 import fr.aston.guide.models.Restaurant;
 
 /**
  * Created by kevin on 12/01/2018.
  */
 
-public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
+public class HotelAdapter extends ArrayAdapter<Hotel> {
 
     private int resId;
 
-    public RestaurantAdapter(@NonNull Context context, int resource, @NonNull List<Restaurant> objects) {
+    public HotelAdapter(@NonNull Context context, int resource, @NonNull List<Hotel> objects) {
         super(context, resource, objects);
 
         resId = resource; //R.layout.item_restaurant
@@ -40,7 +41,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant> {
         TextView textViewCategory = convertView.findViewById(R.id.textViewCategory);
 
         //déclaration d'un object restaurant contenant les information du restaurant
-        Restaurant item=getItem(position);
+        Hotel item=getItem(position);
 
         textViewTitle.setText(item.getName());
         textViewCategory.setText(item.getCategory());
