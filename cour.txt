@@ -31,6 +31,8 @@ la declaration des valeur se fais dans le les fichier xml des dossier value. Le 
 
 -les donnée d'un input se trouve dans un object editable de la class getText(). Il faut donc faire appelle a la methode toString pour faire apparaitre la valeur
 
+-tools permet de mettre des donnée visible que on previous et non a la compilation
+
 //*******************Créee un menu**********************************************//
 
 -click droit sur res -> new -> android directory -> selectionner menu

@@ -2,6 +2,7 @@ package fr.aston.guide;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -34,7 +35,7 @@ public class ListingActivity extends AppCompatActivity {
                 List<Restaurant> restaurantList = new ArrayList<>();
                 restaurantList.add(new Restaurant("KFC",
                         "traditionnel",
-                        "info@kfc.fr",
+                        "info@macdo.fr",
                         "0123423242",
                         "http://www.kfc.fr",
                         "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png"
@@ -46,6 +47,16 @@ public class ListingActivity extends AppCompatActivity {
                         "https://www.mcdonalds.fr/",
                         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mcdonalds-90s-logo.svg/220px-Mcdonalds-90s-logo.svg.png"
                 ));
+                restaurantList.add(new Restaurant("Burger king",
+                        "Fast Food",
+                        "info@burgerking.fr",
+                        "0123423242",
+                        "https://www.burgerking.fr/",
+                        "https://pbs.twimg.com/profile_images/936003791312191488/gcvNpwi2_400x400.jpg"
+                ));
+
+               listViewData.setAdapter(new RestaurantAdapter(ListingActivity.this, R.layout.item_restaurant, restaurantList));
+
 
             }else{
                 textViewTitle.setText("Les Hôtels");
